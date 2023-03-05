@@ -1,11 +1,34 @@
-import React from 'react'
-import  './blog.css'
-
+import React from "react";
+import "./blog.css";
+import { Article } from "../../components";
+import{blog01} from "./imports"
 
 const Blog = () => {
   return (
-    <div>Blog</div>
-  )
-}
+    <div className="anyworka__blog section__padding" id="blog">
+      <div className="anyworka__blog-heading">
+        <h1 className="gradient__text">
+          A lot is happening, we are blogging about it
+        </h1>
+      </div>
+      <div className="anyworka__blog-container">
+      <div className="anyworka__blog-container_groupA">
+      <Article imgurl={blog01} Date='20 sept, 2023' title="Anyworka is an open Ai is the future. Lets get it now" />
 
-export default Blog
+      </div>
+      <div className="anyworka__blog-container_groupB">
+      <Article imgurl={blog01} Date='20 sept, 2023' title="Anyworka is an open Ai is the future. Lets get it now" />
+      <Article imgurl={blog01} Date='20 sept, 2023' title="Anyworka is an open Ai is the future. Lets get it now" />
+      <Article imgurl={blog01} Date='20 sept, 2023' title="Anyworka is an open Ai is the future. Lets get it now" />
+      <Article imgurl={blog01} Date='20 sept, 2023' title="Anyworka is an open Ai is the future. Lets get it now" />
+      <Article imgurl={blog01} Date='20 sept, 2023' title="Anyworka is an open Ai is the future. Lets get it now" />
+     
+
+      </div>
+      </div>
+    </div>
+  );
+};
+
+export default Blog;
+ 
