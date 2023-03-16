@@ -1,7 +1,7 @@
 import React from "react";
 import "./blog.css";
 import { Article } from "../../components";
-import{blog01} from "./imports"
+import{blog01, blog02, blog03, blog04, blog05} from "./imports"
 
 const Blog = () => {
   return (
@@ -18,10 +18,10 @@ const Blog = () => {
       </div>
       <div className="anyworka__blog-container_groupB">
       <Article imgurl={blog01} Date='20 sept, 2023' title="Anyworka is an open Ai is the future. Lets get it now" />
-      <Article imgurl={blog01} Date='20 sept, 2023' title="Anyworka is an open Ai is the future. Lets get it now" />
-      <Article imgurl={blog01} Date='20 sept, 2023' title="Anyworka is an open Ai is the future. Lets get it now" />
-      <Article imgurl={blog01} Date='20 sept, 2023' title="Anyworka is an open Ai is the future. Lets get it now" />
-      <Article imgurl={blog01} Date='20 sept, 2023' title="Anyworka is an open Ai is the future. Lets get it now" />
+      <Article imgurl={blog02} Date='20 sept, 2023' title="Anyworka is an open Ai is the future. Lets get it now" />
+      <Article imgurl={blog03} Date='20 sept, 2023' title="Anyworka is an open Ai is the future. Lets get it now" />
+      <Article imgurl={blog04} Date='20 sept, 2023' title="Anyworka is an open Ai is the future. Lets get it now" />
+      <Article imgurl={blog05} Date='20 sept, 2023' title="Anyworka is an open Ai is the future. Lets get it now" />
      
 
       </div>

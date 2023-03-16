@@ -16,18 +16,20 @@ a{
     text-decoration: none;
 }
 .gradient__bg{
-/* background: blueviolet; */
+background: var(--color-bg);
 width: 100vw;
 }
 .gradient__text{
     background:var(--gradient-text);
     background-clip: text;
     -webkit-background-clip: text;
-    /* -webkit-text-fill-color: transparent; */
+    -webkit-text-fill-color: transparent;
 }
 
 .section__padding{
     padding:4rem 6rem;
+    margin: auto;
+
 }
 
 .section__margin{

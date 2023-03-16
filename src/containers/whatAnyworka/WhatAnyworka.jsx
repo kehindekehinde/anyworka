@@ -1,6 +1,6 @@
 import React from "react";
 import { Feature } from "../../components";
-import { gift, dustpan } from "./imports";
+import { gift, dustpan, garlands, hammer } from "./imports";
 
 import "./whatAnyworka.css";
 
@@ -21,7 +21,7 @@ const WhatAnyworka = () => {
         <h1 className="gradient__text">
           The possibilities are beyound your imagination
         </h1>
-        <p>uuuu uuuuuuuuu uuuuuuuuuuu </p>
+        <p>Explore the library </p>
       </div>
       <div className="anyworka__whatanyworka-container">
         <Feature
@@ -35,17 +35,17 @@ const WhatAnyworka = () => {
           text="Make your loved ones feel special"
         />
         <Feature
-          pic={dustpan}
+          pic={garlands}
           title="Capentry"
           text="Hire a capenter for your furniture"
         />
         <Feature
-          pic={dustpan}
+          pic={hammer}
           title="Gift and surpries"
           text="Cleaning Services, House and office cleaning services"
         />
         <Feature
-          pic={dustpan}
+          pic={garlands}
           title="Event Planning"
           text="Make your loved ones feel special"
         />
