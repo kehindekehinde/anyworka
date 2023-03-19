@@ -6,13 +6,13 @@ import "./features.css";
 
 const FeaturesData = [
   {
-    title: "this is title",
-    text: "this is a longer text testing",
+    title: "Growth-oriented",
+    text: " We believe in the power of feedback and encourage a mindset of continuous learning and growth",
     pic: gift,
   },
   {
-    title: "this is title",
-    text: "this is a longer text testingthis is a longer text testingthis is a longer text testingthis is a longer text testingthis is a longer text testing",
+    title: "Thoughtful",
+    text: "We thoroughly consider the consequences of our work and welcome diversity of thought.",
     pic: dustpan,
   },
 ];

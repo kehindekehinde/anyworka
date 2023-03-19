@@ -6,8 +6,11 @@
 }
 
 body {
-    background-color: var(--color-bg);
-
+    
+    background: -webkit-radial-gradient(circle farthest-corner at center center, #040C18 22%, #042C54 90%);
+    background: -moz-radial-gradient(circle farthest-corner at center center, #040C18 22%, #042C54 90%);
+    background: radial-gradient(circle farthest-corner at center center, #040C18 22%, #042C54 90%);
+    
 }
 
 a{

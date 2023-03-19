@@ -30,7 +30,7 @@ const Footer = () => {
       <div className="anyworka__footer-links_div">
         <h4>Get in Touch</h4>
         <p>creech wood k12 132 DK Alknjch, All</p>
-        <p>085-132567</p>
+        <p>+234 9034 454 760</p>
         <p>kehindekehinde84@gmail.com</p>
       </div>
       </div>

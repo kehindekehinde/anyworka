@@ -7,6 +7,7 @@
     font-weight: 900;
     height: 20px;
 width: 74px;
+color: #fcfcfc;
 /* justify-content: ; */
 
 }
@@ -76,25 +77,31 @@ align-items:center;
 button{
     color: #fcfcfc;
 }
-
+.anyworka__navbar-menu
+.anyworka__navbar-menu_container-links-sign button, .anyworka__navbar-menu_container-links-sign button p{
+    background: var(--color-footer);
+    border: none;
+}
 .anyworka__navbar-sign button,
-.anyworka__navbar-menu_container button{
+.anyworka__navbar-menu_container button p{
     height: 40px;
     width: 120px;
     border-radius: 5px;
-    margin: 0 0.5rem;
+    /* margin: 1 0.5rem; */
+    /* padding:0.5rem; */
+    /* text-align: center; */
+    /* align-items: end; */
 
     font-family: var(--font-family);
-    color: #fcfcfc;
 
     font-size: 14px;
     font-weight: 500;
-    line-height: 20px;
+    line-height: 40px;
     outline: none;
     cursor: pointer;
     border: 0;
-    background: #3B9186;
-    color:#fcfcfc
+    background: #0f3530;
+    color: #fcfcfc;
 
 }
 
@@ -120,9 +127,10 @@ button{
     top:40px;
     right: 0;
     margin-top: 1rem;
-    min-width: 210px;
+    min-width: 200px;
     border-radius: 5px;
-    box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 5 rgba(0, 0, 0, 0.4);
+    
 
 }
 .anyworka__navbar-menu_container p{
